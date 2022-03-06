@@ -1,0 +1,156 @@
+html {
+  background-color: #808080;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.frame {
+  margin-top: 62px;
+  width: 300px;
+  height: 200px;
+  background: #fff;
+  padding: 0 15px 0 15px;
+  border: 1px solid #a6a6a6;
+  border-radius: 6px;
+}
+
+.header__content {
+  display: flex;
+  align-items: baseline;
+}
+
+.about__clients {
+  font-size: 17px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.znatok {
+  width: 60px;
+  height: 17px;
+  border-radius: 10px;
+  background: #e2211c;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}
+
+.number {
+  width: 35px;
+  height: 15px;
+  border-radius: 10px;
+  background: #f0f0f0;
+  text-align: center;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.list {
+  display: flex;
+  align-items: baseline;
+  margin-top: -22px;
+}
+
+.circle {
+  border-radius: 50%;
+  background: #efefef;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.circle:before {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  background: #d2d2d2;
+  width: 55%;
+  height: 55%;
+  align-self: center;
+}
+
+.gray__list {
+  font-size: 11px;
+  color: grey;
+  margin-right: 5px;
+}
+
+.texture {
+  width: auto;
+  height: 25px;
+  background: #f1f4f9;
+  border-radius: 6px;
+  margin-top: -5px;
+}
+
+.checklist {
+  font-size: 9px;
+  padding: 7px;
+}
+
+.data {
+  margin-top: 10px;
+}
+
+.block_1 {
+  display: flex;
+  align-items: center;
+}
+
+.city {
+  font-size: 11px;
+  color: grey;
+  margin-right: 116px;
+}
+
+.btn1 {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  width: 106px;
+  height: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: 1s ease;
+  padding: 10px 0 10px 12px;
+  font-size: 11px;
+  outline: none;
+}
+
+.btn1:focus {
+  width: 140px;
+  border: 1px solid #ccc;
+}
+
+.block_2 {
+  display: flex;
+  align-items: center;
+}
+
+.btn2 {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  width: 115px;
+  max-width: 200px;
+  height: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: 1s ease;
+  padding: 10px 0 10px 12px;
+  font-size: 11px;
+  outline: none;
+  font-size: 11px;
+}
+
+.phone {
+  font-size: 11px;
+  color: grey;
+  margin-right: 100px;
+}
